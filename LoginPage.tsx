@@ -145,7 +145,7 @@ export default function LoginPage({ onLoginSuccess }: LoginPageProps) {
 
           {/* Info */}
           <div className="rounded-lg bg-slate-700/30 border border-slate-600/30 p-3">
-            <p className="text-xs text-slate-400 leading-relaxed text-center"> Login untuk mengakses monitoring panel surya
+            <p className="text-xs text-slate-400 leading-relaxed text-center"> Login Terlebih Dahulu Untuk Mengakses Dashboard Monitoring Panel Surya 
             </p>
           </div>
         </div>
