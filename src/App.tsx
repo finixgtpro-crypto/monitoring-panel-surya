@@ -218,16 +218,6 @@ export default function App() {
               <Sun className="w-4 h-4 text-amber-500" strokeWidth={1.5} />
               <span>SolarTrack IoT Dashboard — Sistem Monitoring Panel Surya Berbasis ESP32</span>
             </div>
-            <div className="flex items-center gap-4">
-              <span className="flex items-center gap-1">
-                <Thermometer className="w-3.5 h-3.5" />
-                Sensor: INA219 + DS18B20
-              </span>
-              <span className="flex items-center gap-1">
-                <Activity className="w-3.5 h-3.5" />
-                Protocol: MQTT / HTTP REST
-              </span>
-            </div>
           </div>
         </footer>
       </main>
