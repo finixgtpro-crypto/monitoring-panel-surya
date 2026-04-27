@@ -56,7 +56,7 @@ export default function LoginPage({ onLoginSuccess }: LoginPageProps) {
             </div>
             <div className="text-center">
               <h1 className="text-2xl font-bold text-white">SolarTrack</h1>
-              <p className="text-sm text-slate-400 mt-1">IoT Dashboard Monitoring Panel Surya</p>
+              <p className="text-sm text-slate-400 mt-1">Monitoring Panel Surya</p>
             </div>
           </div>
 
@@ -89,7 +89,7 @@ export default function LoginPage({ onLoginSuccess }: LoginPageProps) {
                 type="email"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
-                placeholder="nama@example.com"
+                placeholder="nama@gmail.com"
                 required
                 className="w-full px-4 py-2.5 rounded-lg bg-slate-700/50 border border-slate-600/50 text-white placeholder-slate-500 focus:outline-none focus:border-amber-400/50 focus:ring-2 focus:ring-amber-400/20 transition-all"
               />
@@ -145,8 +145,7 @@ export default function LoginPage({ onLoginSuccess }: LoginPageProps) {
 
           {/* Info */}
           <div className="rounded-lg bg-slate-700/30 border border-slate-600/30 p-3">
-            <p className="text-xs text-slate-400 leading-relaxed">
-              <span className="font-medium text-slate-300">Demo:</span> Gunakan email dan password apapun untuk membuat akun baru atau login.
+            <p className="text-xs text-slate-400 leading-relaxed text-center"> Login Terlebih Dahulu Untuk Mengakses Dashboard Monitoring Panel Surya 
             </p>
           </div>
         </div>
