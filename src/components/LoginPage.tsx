@@ -145,7 +145,7 @@ export default function LoginPage({ onLoginSuccess }: LoginPageProps) {
 
           {/* Info */}
           <div className="rounded-lg bg-slate-700/30 border border-slate-600/30 p-3">
-            <p className="text-xs text-slate-400 leading-relaxed text-center"> Login Terlebih Dahulu Untuk Mengaksesnya !! 
+            <p className="text-xs text-slate-400 leading-relaxed text-center"> Silahkan daftar terlebih dahulu untuk mengaksesnya 
             </p>
           </div>
         </div>
