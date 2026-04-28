@@ -76,7 +76,7 @@ export default function App() {
         <div className="rounded-xl border border-slate-700/60 bg-gradient-to-r from-slate-800 to-slate-800/50 px-6 py-4">
           <div className="flex flex-col sm:flex-row sm:items-center gap-2">
             <div className="flex-1">
-              <p className="text-xs text-slate-400 uppercase tracking-widest mb-1">Tugas Akhir / Skripsi</p>
+              <p className="text-xs text-slate-400 uppercase tracking-widest mb-1">Penelitian Ilmiah Rajiv</p>
               <h2 className="text-sm font-bold text-white leading-snug">
                 Rancang Bangun Sistem Monitoring Tegangan dan Arus Panel Surya
                 <span className="text-amber-400"> Berbasis Internet of Things</span> Menggunakan ESP32
