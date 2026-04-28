@@ -19,7 +19,7 @@ export default function PanelInfo({ voltage, current, power, temperature, irradi
       </div>
 
       <div className="grid grid-cols-2 gap-3">
-        <InfoRow icon={MapPin} label="Lokasi" value="Atap Lab IoT" color="text-slate-300" />
+        <InfoRow icon={MapPin} label="Lokasi" value="Atap Rumah Rajiv" color="text-slate-300" />
         <InfoRow icon={Zap} label="Kapasitas" value="100 Wp" color="text-amber-300" />
         <InfoRow icon={Cpu} label="Panel ID" value="ESP32-01" color="text-blue-300" />
         <InfoRow icon={Sun} label="Irradiansi" value={`${irradiance.toFixed(0)} W/m²`} color="text-yellow-300" />
